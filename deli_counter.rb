@@ -20,10 +20,5 @@ else
 end
 end
 
-
-
-#counter = 0
-#queue.each do |x|
-  #counter+=1
-  # puts "The line is currently: #{counter}. #{x}"
-  #end
+def take_a_number(queue,person)
+end
