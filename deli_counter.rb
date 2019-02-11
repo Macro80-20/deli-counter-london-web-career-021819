@@ -24,3 +24,11 @@ def take_a_number(queue,person)
   queue.push(person)
 puts "Welcome, #{person}. You are number #{queue.index(person) + 1} in line."
 end
+
+
+def now_serving(queue)
+  if queue.length >=1
+  puts "Currently serving #{queue[queue.length-1]}." 
+  end
+    puts "The line is empty"
+end
