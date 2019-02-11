@@ -28,7 +28,7 @@ end
 
 def now_serving(queue)
   if queue.length >=1
-  puts "Currently serving #{queue[queue.length-1]}." 
+  puts "Currently serving #{queue[queue.length-1]}."
   end
     puts "The line is empty"
 end
