@@ -8,7 +8,7 @@ kats_deli = []
 
 def line (queue)
   if queue == 0
-    puts"THERE IS NO ONE"
+    puts"The line is currently empty."
     end
 counter = 0
 new_array = []
