@@ -16,7 +16,7 @@ queue.each do
 |x|
 new_array.push("#{counter+=1}. #{x}")
 end
- return "The line is currently: #{new_array.join(", ")}"
+ return "The line is currently: #{new_array.join(" ")}"
 end
 
 
