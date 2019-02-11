@@ -7,16 +7,17 @@ linw = ["Amanda","Annette","Ruchi"]
 kats_deli = []
 
 def line (queue)
-  if queue.length == 0
-    puts "The line is currently empty."
-  end
-counter = 0
+  if queue.length >= 1
+    counter = 0
 new_array = []
 queue.each do
 |x|
 new_array.push("#{counter+=1}. #{x}")
 end
- return "The line is currently: #{new_array.join(" ")}"
+ puts "The line is currently: #{new_array.join(" ")}"
+else
+  puts "The line is currently empty."
+end
 end
 
 
