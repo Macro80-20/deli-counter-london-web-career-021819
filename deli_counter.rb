@@ -21,5 +21,6 @@ end
 end
 
 def take_a_number(queue,person)
-  queue.push(person)
+  queue.push(person) 
+puts "Welcome, #{person}. You are number #{queue.index(person) + 1} in line."
 end
