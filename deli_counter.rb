@@ -1,7 +1,5 @@
 # Write your code here.
 
-linw = ["Amanda","Annette","Ruchi"]
-kats_deli = []
 
 linw = ["Amanda","Annette","Ruchi"]
 kats_deli = []
@@ -29,6 +27,7 @@ end
 def now_serving(queue)
   if queue.length >=1
   puts "Currently serving #{queue[queue.length-1]}."
+else
+    puts "There is nobody waiting to be served"
   end
-    puts "The line is empty"
 end
